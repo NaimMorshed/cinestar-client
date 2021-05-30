@@ -1,0 +1,27 @@
+.upload-parent header {
+    min-height: 45vh;
+}
+
+.upload-parent main {
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-parent main input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px 20px;
+    font-size: 35px;
+}
+.upload-parent main input:focus {
+    outline: none;
+}
+
+.upload-parent footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
