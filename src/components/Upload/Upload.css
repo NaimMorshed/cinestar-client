@@ -25,3 +25,47 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+.technology {
+    background-image: url(../../images/category/technology.jpeg);
+    box-shadow: inset 0 0 0 2000px #1b262c63;
+}
+
+.music {
+    background-image: url(../../images/category/music.jpeg);
+    box-shadow: inset 0 0 0 2000px #1b262ca1;
+}
+
+.tutorial {
+    background-image: url(../../images/category/tutorial.jpeg);
+    box-shadow: inset 0 0 0 2000px #1b262cad;
+}
+
+.movie {
+    background-image: url(../../images/category/movies.jpeg);
+    box-shadow: inset 0 0 0 2000px #1b262cad;
+}
+
+.blog {
+    background-image: url(../../images/category/blog.jpeg);
+    box-shadow: inset 0 0 0 2000px #1b262cad;
+}
+
+.entertainment {
+    background-image: url(../../images/category/entertainment.jpeg);
+    box-shadow: inset 0 0 0 2000px #1b262cad;
+}
+
+.card-hover {
+    transition: 0.2s ease-in-out;
+    width: 210px;
+    height: 170px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-hover:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}

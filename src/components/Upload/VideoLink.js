@@ -1,25 +1,25 @@
 import React from 'react';
-import './Upload.css';
 import { Link } from 'react-router-dom';
 
-const Title = () => {
+const VideoLink = () => {
     return (
         <div className="upload-parent">
             <header className="bg-danger text-light center-col">
-                <h1>Lets add title to your video</h1>
+                <h1>Insert video link</h1>
             </header>
 
             <main>
                 <form>
-                    <input type="text" placeholder="Title" />
+                    <input type="text" placeholder="Link" />
                 </form>
             </main>
 
             <footer className="container">
-                <Link to="/description"><button className="btn btn-success">Next</button></Link>
+                <button onClick={() => window.history.back()} className="btn btn-danger me-3">Previous</button>
+                <Link to="/complete"><button className="btn btn-success">Next</button></Link>
             </footer>
         </div>
     );
 };
 
-export default Title;
+export default VideoLink;
